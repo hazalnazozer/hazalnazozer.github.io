@@ -334,6 +334,10 @@ nav {
     #nav-links.responsive li:not(:first-child) {
         display: none;
     }
+    
+        #cards.responsive li:not(:first-child) {
+        display: none;
+    }
 }
 
 /* Header */ 
