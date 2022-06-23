@@ -1,1 +1,0 @@
-# hazalnazozer.github.io

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title> HNO </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Lato:wght@100;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allison&family=Lato:wght@100;400;700&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="HNOS.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="container clearfix">
+            <div id="logo-box">
+                <a href="/" class="logo text-uppercase"> HNO </a>
+            </div>
+
+            <div id="nav-links" class="responsive">
+                <ul>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-uppercase nav-icon">
+                            <i class="fas fa-bars"> </i>
+                        </a>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> About Me </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> Portfolio </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+
+        <div class="container about-me">
+
+            <h2> Hello, I Am </h2>
+            <br>
+            <h1> Hazal Naz Özer. </h1>
+            <br>
+            <h2> Architecture student, designer and web developer </h2>
+            <br>
+
+            <p> I'm a senior architecture student at İstanbul Technical University. I was always interested in design
+                and computers. Along with my designer side, I love to code what I designed and I'm very willing to
+                learn.</p>
+            <br>
+
+
+            <button onclick="window.location.href = 'http://127.0.0.1:5500/HNO%20Site/HNOAboutMe.html';"
+                class="btn btn-primary"> Get to Know Me </button>
+
+
+
+        </div>
+
+    </header>
+
+    <footer>
+
+        <div>
+            <ul>
+                <li>
+                    <button onclick="window.location.href = 'https://github.com/hazalnazozer';"
+                        class="btn btn-outline btn-social">
+                        <i class="fab fa-github"></i>
+                    </button>
+                </li>
+
+                <li>
+                    <button onclick="window.location.href = 'https://www.linkedin.com/in/hazalnazozer/';"
+                        class="btn btn-outline btn-social">
+                        <i class="fab fa-linkedin"></i>
+                    </button>
+                </li>
+
+                <li>
+                    <button onclick="window.location.href = 'https://www.behance.net/nazzer';"
+                        class="btn btn-outline btn-social">
+                        <i class="fab fa-behance"></i>
+                    </button>
+                </li>
+
+            </ul>
+        </div>
+
+    </footer>
+
+    <section>
+
+        <div class="about-me-section">
+
+            <h2> About Me </h2>
+            <br>
+            <p> Get in touch and get to know me: </p>
+
+
+            <div class="container container-cards">
+                <div class="main-card">
+                    <div class="cards">
+
+
+                        <div class="card">
+                            <div class="content">
+                                <div>
+                                    <div class="name"> <h5> Who am I? </h5> </div>
+                                    <br>
+                                    <div class"about-me-text">You can learn more about my education and career history.
+                                    </div>
+                                </div>
+                                <button
+                                    onclick="window.location.href = 'http://127.0.0.1:5500/HNO%20Site/HNOAboutMe.html';"
+                                    class="btn-about">
+                                    <i> More > </i>
+                                </button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="card">
+                            <div class="content">
+                                <div class="img">
+                                    <!--- <img src="images/img2.jpg" alt="">--->
+                                </div>
+                                <div>
+                                    <div class="name"> <h5> My Works </h5> </div>
+                                    <br>
+                                    <div class"about-me-text">You can check my portfolio on Behance.</div>
+                                </div>
+                                <button onclick="window.location.href = 'https://www.behance.net/nazzer';"
+                                    class="btn-about">
+                                    <i> More > </i>
+                                </button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+
+    <script>
+
+        $(".nav-icon").click(function(){
+            $("#nav-links").toggleClass("responsive");
+            return false;
+        });
+
+    </script>
+
+</body>
+
+</html>
