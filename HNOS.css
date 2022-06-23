@@ -436,7 +436,7 @@ footer li {
     display: flex;
     flex-wrap: inherit;
     margin: 20px 20px;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .main-card .cards .card{
     width: calc(100% / 3 - 10px);
